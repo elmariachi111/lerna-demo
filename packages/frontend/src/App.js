@@ -5,11 +5,12 @@ import './App.css';
 function App() {
   const p = new Person("Stefan", "Adolf");
   p.birthYear = 1978;
+  p.ethAddress = "0x1234"
   return (
     <div className="App">
       <header className="App-header">
        {p.fullName} is {' '}
-       {p.age}
+       {p.age} and his address is {p.ethAddress}
       </header>
     </div>
   );

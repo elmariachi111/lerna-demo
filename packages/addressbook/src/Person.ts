@@ -1,7 +1,10 @@
+export type EthAddress = string;
+
 export class Person {
     firstName;
     lastName;
     private yob: number;
+    ethAddress: EthAddress;
 
     constructor(firstName: string, lastName: string) {
         this.firstName = firstName;
