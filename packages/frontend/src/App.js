@@ -7,8 +7,8 @@ function App() {
   p.birthYear = 1978;
   p.ethAddress = "0x1234"
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="App ">
+      <header className="App-header green">
        {p.fullName} is {' '}
        {p.age} and his address is {p.ethAddress}
       </header>
